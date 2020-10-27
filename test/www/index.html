@@ -1,9 +1,49 @@
 <html>
  <head>
- <title>Welcome!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<title>Welcome!</title>
+ 
+	<script>
+	function show(id){
+		var div = document.getElementById(id);
+		div.style.display = "block";
+	}
+	function hide(id){
+		var div = document.getElementById(id);
+		div.style.display = "none";
+	}
+	</script>
  </head>
+ 
  <body>
-<p>H</p>
-<p style="font-weight: bold">where am i</p>
+ 
+	<a onclick="goContacts()" href="contacts.html">Contact Details</a>
+ 
+	<div id="header"
+		<p>My Site - Portfolio</p>
+	</div>
+	
+	<div id="introduction"
+		<p>This is the portfolio site of Samuel Martin Randall, a Bournemouth University Game Design student.</p>
+	</div>
+	
+	<div class="exhibittitle"
+		<a onclick="show('project1')" href="#">Exhibit 1 - Title</a>
+	</div>
+	
+	<div id="project1" style="display: none; border-bottom: 1px solid black">
+		<img src="images/exhibit1-1.png" style="width: 16rem; height: 16rem" alt="Exhibit 1 evidence picture 1.">
+		<a onclick="hide('project1')" href="#">Close</a>
+	</div>
+	
+	<div class="exhibittitle"
+		<a onclick="show('project2')" href="#">Exhibit 2 - Title</a>
+	</div>
+	
+	<div id="project2" style="display: none; border-bottom: 1px solid black">
+		<img src="images/exhibit2-1.png" style="width: 16rem; height: 16rem" alt="Exhibit 2 evidence picture 1.">
+		<a onclick="hide('project2')" href="#">Close</a>
+	</div>
+	
  </body>
 </html>

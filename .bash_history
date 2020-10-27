@@ -123,3 +123,20 @@ git status
 git log --oneline
 git revert 202d765
 git add somepath
+git status
+ls -a
+ls-a
+ls -a
+git status
+git add
+git add .
+git commit -m "basic website"
+git push
+git push
+git status
+npp
+cd test
+git pull
+npp
+npp
+ls -a
