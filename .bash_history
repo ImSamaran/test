@@ -140,3 +140,83 @@ git pull
 npp
 npp
 ls -a
+npp
+git commit
+git push
+git push
+git commit
+git add .
+git push
+git commit
+git commit
+git commit -m "big uppin ting on website"
+git push
+git push
+git commit
+npp
+git commit -m "v2"
+git add .
+git push
+npp
+npp
+blender
+blender
+blender
+npp
+npp
+pwd
+ls
+cd blender
+pwd
+ls
+blender myScene.blend --python main.py
+npp
+blender myScene.blend --python main.py
+npp
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+npp
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+blender myScene.blend --python main.py
+cd
+cwd
+cd
+cd .
+ccd
+help
+cd -all
+-cd dir
+cd dir
+cd
+pwd
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+blender /blender/myScene.blend --python blender/main.py
+npp
+push
+git add
+git commit
+git add
+git add .
+git commit .

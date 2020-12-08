@@ -1,14 +1,35 @@
 #topbar{
 	background: grey;
+	text-align: center;
+	top: 0;
+	height: 4rem;
+	font-size: 3rem;
+}
+
+#botbar{
+	background: grey;
+	text-align: center;
+	height: 4rem;
+	font-size: 2rem;
+}
+
+#botbarFixed{
+	background: grey;
+	text-align: center;
+	bottom: 0;
+	height: 4rem;
+	font-size: 2rem;
+	width: 80%;
+	position: fixed;
 }
 
 #header{
-		font-size: 30pt;
-		color: white;
-		height: 4rem;
-		padding: 10px;
-		font-weight: bold;
-		text-align: center;
+	font-size: 30pt;
+	color: white;
+	height: 4rem;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
 }
 
 #introduction{
@@ -21,4 +42,35 @@ body{
 	font-family: Calibri;
 	color: white;
 	background: black;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.exhibittitle{
+	
+}
+
+.projects{
+	display: none; 
+	border-bottom: 1px solid black;
+	width: 16rem; 
+	height: 16rem;
+	left: 50%;
+	border-radius: 1%;
+}
+
+.contacts{
+	top: 50%;
+	text-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+	text-decoration: none;
+	background-color: #8f8f8f;
 }

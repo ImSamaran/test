@@ -1,48 +1,65 @@
 <html>
  <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<title>Welcome!</title>
+	<title>Portfolio</title>
  
 	<script>
 	function show(id){
 		var div = document.getElementById(id);
 		div.style.display = "block";
 	}
+	
 	function hide(id){
 		var div = document.getElementById(id);
 		div.style.display = "none";
 	}
+	
 	</script>
  </head>
  
  <body>
- 
-	<a onclick="goContacts()" href="contacts.html">Contact Details</a>
+	
+	<div id="topbar">
+		<a href="contacts.html">Contact Details</a>
+		<a href="aboutme.html">About Me</a>
+	</div>
  
 	<div id="header"
-		<p>My Site - Portfolio</p>
+		<p>Portfolio</p>
 	</div>
 	
 	<div id="introduction"
 		<p>This is the portfolio site of Samuel Martin Randall, a Bournemouth University Game Design student.</p>
 	</div>
 	
-	<div class="exhibittitle"
-		<a onclick="show('project1')" href="#">Exhibit 1 - Title</a>
-	</div>
-	
-	<div id="project1" style="display: none; border-bottom: 1px solid black">
-		<img src="images/exhibit1-1.png" style="width: 16rem; height: 16rem" alt="Exhibit 1 evidence picture 1.">
-		<a onclick="hide('project1')" href="#">Close</a>
-	</div>
 	
 	<div class="exhibittitle"
-		<a onclick="show('project2')" href="#">Exhibit 2 - Title</a>
+		<a onmouseenter="show('project1')" href="#">Exhibit 1 - Title</a>
 	</div>
 	
-	<div id="project2" style="display: none; border-bottom: 1px solid black">
-		<img src="images/exhibit2-1.png" style="width: 16rem; height: 16rem" alt="Exhibit 2 evidence picture 1.">
-		<a onclick="hide('project2')" href="#">Close</a>
+	<div class="projects" id="project1" onmouseleave="hide('project1')">
+		<img src="images/exhibit1-1.png" alt="Exhibit 1 evidence picture 1.">
+	</div>
+	
+	<div class="exhibittitle"
+		<a onmouseenter="show('project2')" href="#">Exhibit 2 - Title</a>
+	</div>
+	
+	<div class="projects" id="project2" onmouseleave="hide('project2')">
+		<img src="images/exhibit2-1.png" alt="Exhibit 2 evidence picture 1.">
+	</div>
+	
+	<div class="exhibittitle"
+		<a onmouseenter="show('project3')" href="#">Exhibit 3 - Title</a>
+	</div>
+	
+	<div class="projects" id="project3" onmouseleave="hide('project3')">
+		<img src="images/exhibit3-1.png" alt="Exhibit 3 evidence picture 1.">
+		<img src="images/exhibit3-2.png" alt="Exhibit 3 evidence picture 2.">
+	</div>
+	
+	<div id="botbar">
+		<p>Samuel Martin Randall, 2020</p>
 	</div>
 	
  </body>
