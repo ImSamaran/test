@@ -64,6 +64,21 @@ body{
 	text-align: center;
 }
 
+.contactstype{
+	top: 50%;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: underline;
+	border-radius: 8px;
+	width: auto;
+}
+
+.contactimage{
+	opacity: 0.2;
+	height: 2rem;
+	position: relative;
+}
+
 a{
 	color: white;
 	text-decoration: none;
